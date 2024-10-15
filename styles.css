@@ -1,0 +1,26 @@
+@font-face {
+    font-family: ComicSans;
+    src: url("comic-sans.ttf");
+}
+
+body {
+    font-family: ComicSans;
+    color: black;
+    background-color: whitesmoke;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+button {
+    margin-top: 5%;
+    background-color: whitesmoke;
+    border: none;
+    animation: rotate 0.5s infinite linear;
+}
